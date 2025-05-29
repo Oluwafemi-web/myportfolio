@@ -37,9 +37,9 @@ export const Hero = () => {
           Shekinah Ogo-Ayorinde
         </h1>
         <h3 className="text-3xl md:text-5xl font-extrabold text-white mb-4">
-          Full-Stack Web Developer
+          Front-End Web Developer
         </h3>
-        <p className="text-lg md:text-2xl text-gray-300 mb-8">
+        {/* <p className="text-lg md:text-2xl text-gray-300 mb-8">
           Building scalable, high-performance web applications that solve
           real-world problems, improve user experience, and drive business
           growth.
@@ -47,7 +47,7 @@ export const Hero = () => {
         <p className="text-base md:text-xl text-gray-300 mb-8">
           🔵 Custom Frontend Interfaces · Optimized Backend Solutions ·
           End-to-End Web Development
-        </p>
+        </p> */}
         <div className="flex flex-wrap gap-4 justify-center mb-12">
           <Button
             size="lg"

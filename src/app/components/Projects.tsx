@@ -16,7 +16,15 @@ const projects = [
     url: "https://mrbottleit.com/",
     image:
       "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=400&fit=crop",
-    tech: ["React", "Node.js", "Express.js", "Firebase", "Tailwind CSS"],
+    tech: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "Firebase",
+      "Tailwind CSS",
+      "Stripe",
+      "Strapi.io",
+    ],
   },
   {
     title: "More BnB",
@@ -25,7 +33,7 @@ const projects = [
     url: "https://morebnb.it/",
     image:
       "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=400&fit=crop",
-    tech: ["React", "Sanity"],
+    tech: ["React", "Sanity CMS"],
   },
   {
     title: "Care Staffing Solution",
@@ -34,7 +42,17 @@ const projects = [
     url: "https://carestaffing-solution.com/",
     image:
       "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=400&fit=crop",
-    tech: ["Next.js", "TypeScript", "NGINX", "Firebase", "PostgreSQL"],
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "NGINX",
+      "Firebase",
+      "PostgreSQL",
+      "Firebase",
+      "Tailwind CSS",
+      "Stripe",
+      "Strapi.io",
+    ],
   },
   {
     title: "MGR Jewelry",
@@ -43,7 +61,7 @@ const projects = [
     url: "https://www.mgr.jewelry/",
     image:
       "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop",
-    tech: ["React", "Shopify", "Stripe"],
+    tech: ["React", "Sanity CMS"],
   },
   {
     title: "Grazia Zuccolotto",
@@ -52,7 +70,7 @@ const projects = [
     url: "https://www.graziazuccolotto.com/",
     image:
       "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=400&fit=crop",
-    tech: ["React", "Tailwind", "Framer Motion"],
+    tech: ["React", "Sanity CMS", "Framer Motion"],
   },
 ];
 

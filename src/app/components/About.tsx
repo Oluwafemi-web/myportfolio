@@ -16,15 +16,15 @@ export const About = () => {
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600 mb-2">5+</div>
+              <div className="text-3xl font-bold text-blue-600 mb-2">4+</div>
               <div className="text-gray-600">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600 mb-2">50+</div>
+              <div className="text-3xl font-bold text-blue-600 mb-2">20+</div>
               <div className="text-gray-600">Projects Completed</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600 mb-2">20+</div>
+              <div className="text-3xl font-bold text-blue-600 mb-2">10+</div>
               <div className="text-gray-600">Happy Clients</div>
             </div>
             <div className="text-center">

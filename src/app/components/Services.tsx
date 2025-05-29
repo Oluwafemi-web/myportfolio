@@ -23,19 +23,19 @@ const services = [
       "Performance Optimization",
     ],
   },
-  {
-    icon: Smartphone,
-    title: "Mobile Development",
-    description:
-      "Cross-platform apps built with React Native for Android and iOS",
-    features: [
-      "React Native",
-      "Native Performance",
-      "App Store Deployment",
-      "UX Focused",
-      "High Performance",
-    ],
-  },
+  // {
+  //   icon: Smartphone,
+  //   title: "Mobile Development",
+  //   description:
+  //     "Cross-platform apps built with React Native for Android and iOS",
+  //   features: [
+  //     "React Native",
+  //     "Native Performance",
+  //     "App Store Deployment",
+  //     "UX Focused",
+  //     "High Performance",
+  //   ],
+  // },
   // {
   //   icon: Palette,
   //   title: "UI/UX Design",
