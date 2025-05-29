@@ -1,4 +1,4 @@
-import { Palette, Code2, Smartphone, Search, Zap, Users } from "lucide-react";
+import { Code2, Smartphone, Search, Zap, Users } from "lucide-react";
 import {
   Card,
   CardContent,
