@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Toaster } from "@/app/components/ui/toaster";
+import { Toaster as Sonner } from "@/app/components/ui/sonner";
+import { TooltipProvider } from "@/app/components/ui/tooltip";
+import { ReactQueryProvider } from "./providers";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -27,7 +31,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <ReactQueryProvider>
+          <TooltipProvider>
+            <Toaster />
+            <Sonner />
+            {children}
+          </TooltipProvider>
+        </ReactQueryProvider>
       </body>
     </html>
   );
