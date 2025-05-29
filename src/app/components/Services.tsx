@@ -13,9 +13,11 @@ const services = [
     icon: Code2,
     title: "Web Development",
     description:
-      "Custom web applications built with modern frameworks and best practices for optimal performance and user experience.",
+      "Modern websites and web apps tailored for performance, accessibility, and SEO.",
     features: [
       "React & Next.js",
+      "Tailwind",
+      "Backend APIs",
       "TypeScript",
       "Responsive Design",
       "Performance Optimization",
@@ -25,8 +27,14 @@ const services = [
     icon: Smartphone,
     title: "Mobile Development",
     description:
-      "Cross-platform mobile applications that work seamlessly across iOS and Android devices.",
-    features: ["React Native", "Native Performance", "App Store Deployment"],
+      "Cross-platform apps built with React Native for Android and iOS",
+    features: [
+      "React Native",
+      "Native Performance",
+      "App Store Deployment",
+      "UX Focused",
+      "High Performance",
+    ],
   },
   // {
   //   icon: Palette,
@@ -39,9 +47,10 @@ const services = [
     icon: Search,
     title: "SEO Optimization",
     description:
-      "Improve your website's visibility and ranking in search engines with proven SEO strategies.",
+      "Improve search rankings with structured data, page speed improvements, and SEO audits.",
     features: [
       "Technical SEO",
+      "Core Web Vitals",
       "Content Strategy",
       "Performance Audit",
       "Analytics Setup",
@@ -78,10 +87,12 @@ export const Services = () => {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Services</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            Development Services
+          </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Comprehensive development services to bring your ideas to life and
-            grow your business
+            I offer custom software development services designed to bring your
+            ideas to life and help your business grow online.
           </p>
         </div>
 

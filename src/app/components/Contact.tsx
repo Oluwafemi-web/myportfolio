@@ -17,8 +17,9 @@ export const Contact = () => {
             Let&apos;s Work Together
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Ready to bring your ideas to life? I&apos;m here to help you create
-            something amazing.
+            Ready to start your next web project? Whether you&apos;re a startup,
+            business, or individual, I’ll help you turn your idea into a fast,
+            user-focused product.
           </p>
         </div>
 
@@ -48,11 +49,9 @@ export const Contact = () => {
               <CardTitle className="text-lg">Phone</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-600 mb-4">
-                Let&apos;s have a conversation
-              </p>
+              <p className="text-gray-600 mb-4">Prefer a quick chat?</p>
               <Button variant="outline" className="w-full">
-                Call Now
+                <Link href="tel:+2348136428007">Call Now</Link>
               </Button>
             </CardContent>
           </Card>
@@ -66,6 +65,10 @@ export const Contact = () => {
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 mb-4">Based worldwide</p>
+              <p className="text-gray-600 mb-4">
+                Remote-friendly and available for global projects{" "}
+              </p>
+
               <Button variant="outline" className="w-full">
                 View Map
               </Button>
