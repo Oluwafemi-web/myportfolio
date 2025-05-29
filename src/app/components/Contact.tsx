@@ -14,10 +14,10 @@ export const Contact = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Let's Work Together
+            Let&apos;s Work Together
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Ready to bring your ideas to life? I'm here to help you create
+            Ready to bring your ideas to life? I&apos;m here to help you create
             something amazing.
           </p>
         </div>
@@ -48,7 +48,9 @@ export const Contact = () => {
               <CardTitle className="text-lg">Phone</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-600 mb-4">Let's have a conversation</p>
+              <p className="text-gray-600 mb-4">
+                Let&apos;s have a conversation
+              </p>
               <Button variant="outline" className="w-full">
                 Call Now
               </Button>

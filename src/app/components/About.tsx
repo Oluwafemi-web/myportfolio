@@ -5,12 +5,12 @@ export const About = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-gray-900 mb-8">About Me</h2>
           <p className="text-lg text-gray-600 leading-relaxed mb-8">
-            I'm Shekinah, a results-driven full-stack developer with over 5
+            I&apos;m Shekinah, a results-driven full-stack developer with over 5
             years of experience creating modern, scalable, and responsive web
             applications. I specialize in React.js, Node.js, and cloud-based
             infrastructure, with a deep focus on building user-friendly
             interfaces and high-performing backends. <br />
-            I've built everything from e-commerce platforms to mobile-first
+            I&apos;ve built everything from e-commerce platforms to mobile-first
             applications and SaaS products — always optimized for performance,
             SEO, and user engagement.
           </p>
