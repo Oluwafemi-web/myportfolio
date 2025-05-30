@@ -7,15 +7,18 @@ import {
   CardHeader,
   CardTitle,
 } from "@/app/components/ui/card";
-
+import mrbottle from "@/app/images/mrbottle.png";
+import bnb from "@/app/images/Morebnb.png";
+import care from "@/app/images/CareStaff.png";
+import mgr from "@/app/images/mgr.png";
+import grazia from "@/app/images/grazia.png";
 const projects = [
   {
     title: "Mr. Bottle",
     description:
       "Responsive e-commerce website for a wine bottle recycling brand.",
     url: "https://mrbottleit.com/",
-    image:
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=400&fit=crop",
+    image: mrbottle.src,
     tech: [
       "React",
       "Node.js",
@@ -31,8 +34,7 @@ const projects = [
     description:
       "A modern web platform designed to showcase our BnB services, allowing clients to explore offerings and amenities with ease.",
     url: "https://morebnb.it/",
-    image:
-      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=400&fit=crop",
+    image: bnb.src,
     tech: ["React", "Sanity CMS"],
   },
   {
@@ -40,8 +42,7 @@ const projects = [
     description:
       "Custom platform connecting caregivers to assisted living facilities",
     url: "https://carestaffing-solution.com/",
-    image:
-      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=400&fit=crop",
+    image: care.src,
     tech: [
       "Next.js",
       "TypeScript",
@@ -59,8 +60,7 @@ const projects = [
     description:
       "Elegant e-commerce platform showcasing luxury jewelry collections",
     url: "https://www.mgr.jewelry/",
-    image:
-      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop",
+    image: mgr.src,
     tech: ["React", "Sanity CMS"],
   },
   {
@@ -68,8 +68,7 @@ const projects = [
     description:
       "Professional portfolio website with sophisticated design and smooth animations",
     url: "https://www.graziazuccolotto.com/",
-    image:
-      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=400&fit=crop",
+    image: grazia.src,
     tech: ["React", "Sanity CMS", "Framer Motion"],
   },
 ];
