@@ -4,6 +4,7 @@ import { Toaster } from "@/app/components/ui/toaster";
 import { Toaster as Sonner } from "@/app/components/ui/sonner";
 import { TooltipProvider } from "@/app/components/ui/tooltip";
 import { ReactQueryProvider } from "./providers";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -67,6 +68,7 @@ export default function RootLayout({
             <Toaster />
             <Sonner />
             {children}
+            <Analytics />
           </TooltipProvider>
         </ReactQueryProvider>
       </body>
