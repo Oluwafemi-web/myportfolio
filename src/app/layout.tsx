@@ -37,10 +37,18 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Front-End Developer | React & Tailwind Expert – Shekinah",
+    title:
+      "Front-End Developer | React, NextJS, Strapi & Tailwind Expert – Shekinah",
     description:
-      "I craft modern, fast websites with React & Tailwind. Let’s build your next digital experience.",
-    images: ["https://yourdomain.com/twitter-card.jpg"],
+      "I create high-performing, visually engaging websites using React and Tailwind. Let’s build something impactful together.",
+    images: [
+      {
+        url: "https://myportfolio-neon-alpha.vercel.app/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Shekinah Front-End Portfolio",
+      },
+    ],
   },
 };
 
