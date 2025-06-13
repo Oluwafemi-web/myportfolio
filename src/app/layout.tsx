@@ -43,7 +43,7 @@ export const metadata: Metadata = {
       "I create high-performing, visually engaging websites using React and Tailwind. Let’s build something impactful together.",
     images: [
       {
-        url: "https://myportfolio-neon-alpha.vercel.app/og-image.png",
+        url: "https://myportfolio-neon-alpha.vercel.app/twitter-image.png",
         width: 1200,
         height: 630,
         alt: "Shekinah Front-End Portfolio",
