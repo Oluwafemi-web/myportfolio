@@ -12,6 +12,8 @@ import bnb from "@/app/images/Morebnb.png";
 import care from "@/app/images/CareStaff.png";
 import mgr from "@/app/images/mgr.png";
 import grazia from "@/app/images/grazia.png";
+import scaleloft from "@/app/images/scaleloft.png";
+import graffin from "@/app/images/graffin.png";
 const projects = [
   {
     title: "Mr. Bottle",
@@ -70,6 +72,21 @@ const projects = [
     url: "https://www.graziazuccolotto.com/",
     image: grazia.src,
     tech: ["React", "Sanity CMS", "Framer Motion"],
+  },
+  {
+    title: "Scaleloft",
+    description:
+      "A professional website for upskilling and finding the right opportunity",
+    url: "https://www.myscaleloft.com/",
+    image: scaleloft.src,
+    tech: ["NextJS", "NestJS", "AdminJS", "AsyncPay", "Supabase"],
+  },
+  {
+    title: "Graffin Global",
+    description: "Website for a top Marine Safety Company in Port Harcourt",
+    url: "https://www.graffinglobal.com/",
+    image: graffin.src,
+    tech: ["WordPress", "Elementor"],
   },
 ];
 
