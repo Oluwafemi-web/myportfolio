@@ -37,7 +37,7 @@ export const Hero = () => {
           Shekinah Ogo-Ayorinde
         </h1>
         <h3 className="text-3xl md:text-5xl font-extrabold text-white mb-4">
-          Front-End Web Developer
+          Front-End Developer
         </h3>
         {/* <p className="text-lg md:text-2xl text-gray-300 mb-8">
           Building scalable, high-performance web applications that solve

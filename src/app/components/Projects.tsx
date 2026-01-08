@@ -1,4 +1,4 @@
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { Button } from "@/app/components/ui/button";
 import {
   Card,
@@ -14,6 +14,8 @@ import mgr from "@/app/images/mgr.png";
 import grazia from "@/app/images/grazia.png";
 import scaleloft from "@/app/images/scaleloft.png";
 import graffin from "@/app/images/graffin.png";
+import sermon from "@/app/images/sermon.png";
+import spagnol from "@/app/images/spagnol.png";
 const projects = [
   {
     title: "Mr. Bottle",
@@ -30,6 +32,28 @@ const projects = [
       "Stripe",
       "Strapi.io",
     ],
+  },
+  {
+    title: "Sermon Stream",
+    description: "A faith based platform for streaming sermons",
+    url: "https://www.sermonstream.app/",
+    image: sermon.src,
+    tech: [
+      "NextJS",
+      "Prisma",
+      "PostgreSQL",
+      "Node.js",
+      "Express.js",
+      "Firebase",
+      "Tailwind CSS",
+    ],
+  },
+  {
+    title: "Spagnolmobili",
+    description: "Italian furniture company",
+    url: "https://www.spagnolmobili.it/",
+    image: spagnol.src,
+    tech: ["React", "Tailwind CSS", "Strapi.io"],
   },
   {
     title: "More BnB",
@@ -147,14 +171,6 @@ export const Projects = () => {
                   >
                     <ExternalLink size={16} className="mr-2" />
                     Live Demo
-                  </Button>
-                  <Button
-                    size="sm"
-                    variant="outline"
-                    className="border-gray-300 hover:border-gray-400"
-                  >
-                    <Github size={16} className="mr-2" />
-                    Code
                   </Button>
                 </div>
               </CardContent>

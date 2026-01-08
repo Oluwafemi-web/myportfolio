@@ -2,9 +2,9 @@ import { useRef, useEffect, useState } from "react";
 
 export const About = () => {
   const stats = [
-    { label: "Years Experience", value: "3+" },
-    { label: "Projects Completed", value: "10+" },
-    { label: "Happy Clients", value: "5+" },
+    { label: "Years Experience", value: "4+" },
+    { label: "Projects Completed", value: "20+" },
+    { label: "Happy Clients", value: "10+" },
     { label: "Support", value: "24/7" },
   ];
 
@@ -39,7 +39,7 @@ export const About = () => {
             About Me
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed mb-8">
-            I&apos;m Shekinah, a results-driven full-stack developer with over 5
+            I&apos;m Shekinah, a results-driven full-stack developer with over 4
             years of experience creating modern, scalable, and responsive web
             applications. I specialize in React.js, Node.js, and cloud-based
             infrastructure, with a deep focus on building user-friendly
